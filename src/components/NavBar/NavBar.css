@@ -1,0 +1,21 @@
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #daa520;
+}
+.navBarTitle{
+    font-size: 50px;
+}
+.navBarList{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.navBarItemList{
+    margin-top: 30px;
+}
+.navBarItem{
+    margin-right: 80px;
+    font-size: 30px;
+    color: #dc143c;
+}

@@ -1,0 +1,12 @@
+.itemCard{
+    background-color: #daa520;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.itemCardInfo{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}

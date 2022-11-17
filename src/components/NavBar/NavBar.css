@@ -13,9 +13,10 @@
 }
 .navBarItemList{
     margin-top: 30px;
-}
-.navBarItem{
     margin-right: 80px;
     font-size: 30px;
-    color: #dc143c;
+    text-decoration: none;
+}
+.navBarCart{
+    margin-top: 50px;
 }

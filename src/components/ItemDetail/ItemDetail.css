@@ -1,20 +1,72 @@
 .cardDetail{
     background-color: #daa520;
+    width: 40%;
+    min-height: 1400px;
     border-radius: 20px;
     margin-top: 5%;
-    margin-left: 35%;
+    margin-left: 30%;
     margin-right: 35%;
 }
 .cardInfo{
     text-align: center;
     padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.cardInfoButton{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
-    font-weight: bolder;
-    margin-left: 35%;
-    background-color: thistle;
-    margin-bottom: 20px;
+.cartQuantity{
+    font-style: italic;
+}
+.cartId{
+    font-size: 20px;
+    color: #6c6a6a;
+}
+.cartTitle{
+    font-size: 50px;
+    color: #008000;
+    background-color: #dfd6cc;
+    border-radius: 50px;
+}
+.cartImg{
+    width: 600px;
+    margin-left: 10%;
+}
+.cartCategory{
+    font-size: 20px;
+}
+.cartPrice{
+    font-size: 50px;
+}
+.cartText{
+    font-size: 30px;
+    font-style: oblique;
+    color: #066306;
+    background-color: #dfd6cc;
+    border-radius: 50px;
+}
+.cartAddButton{
+    margin-left: 25%;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.cartClearButton{
+    margin-left: 30px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.buyButton{
+    background-color: #808080;
+    color: #dfd6cc;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 70%;
+    font-size: 20px;
+}
+.buyButton:hover{
+    color: #000000;
 }

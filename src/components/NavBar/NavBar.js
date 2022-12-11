@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom"
+import CartWidget from '../CartWidget/cartWidget'
 import './NavBar.css'
 
 const NavBar = () => {
@@ -7,17 +8,17 @@ const NavBar = () => {
             <h1 className="navBarTitle">Sazón</h1>
             <ul className="navBarList">
                 <li className="navBarItemList">
-                    <NavLink to="/">Productos</NavLink>
+                    <NavLink to="/" className="navBarItemList">Productos</NavLink>
                 </li>
                 <li className="navBarItemList">
-                    <NavLink to="/category/carne">Carne</NavLink>
+                    <NavLink to="/category/carne" className="navBarItemList">Carne</NavLink>
                 </li>
                 <li className="navBarItemList">
-                    <NavLink to="/category/pollo">Pollo</NavLink>
+                    <NavLink to="/category/pollo" className="navBarItemList">Pollo</NavLink>
                 </li>
             </ul>
             <div className="navBarItemList navBarCart">
-                <Link to="/cart">Carrito</Link>
+                <Link to="/cart" className="navBarCart"><CartWidget /></Link>
             </div>
         </div>
     )

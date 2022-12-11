@@ -7,20 +7,86 @@
     margin-right: 35%;
 }
 .cartCardInfo{
+    color: #066306;
     text-align: center;
     padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.cartCardButton{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
-    font-weight: bolder;
-    margin-top: 65%;
-    background-color: thistle;
+.formCartTitle{
+    margin-top: 30px;
+    background-color: #808080;
+    color: #dfd6cc;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.cartCardButton1{
+.cartCardImg{
+    width: 400px;
+    margin-left: 15%;
+}
+.cartCardPrice{
+    color: #066306;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cartCardDesc{
+    background-color: #dfd6cc;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.removeButton{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 43%;
+    background-color: #b30c0c;
+    color: #ffffff;
+    padding: 5px;
+}
+.cartCardQuant{
+    margin-top: 30px;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.formTotal{
+    background-color: #daa520;
+    color: #000000;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.formTitle{
+    background-color: #000000;
+    color: #dfd6cc;
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 30%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.formInput{
+    background-color: #dfd6cc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 300px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.formInput1{
     margin-left: 30%;
 }
-.cartCardButton2{
-    margin-left: 10%;
+.formButton{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

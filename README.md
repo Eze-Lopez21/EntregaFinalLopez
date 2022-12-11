@@ -1,3 +1,16 @@
+# Proyecto eCommerce: Hamburguesería "Sazón".
+Pedidos online y delivery.
+Hasta agotar stock.
+
+El proyecto cuenta con el uso de librerias externas tales como "Bootstrap", "Firebase", "Moment", entre otras.
+
+Código conectado con la nube de Firestore.
+
+Mucho diseño CSS para mayor comodidad del cliente al poder distinguir bien, los diferentes aspectos de la página.
+
+Así como componentes, imagenes y páginas ordenadas adecuadamente.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
